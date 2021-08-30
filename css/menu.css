@@ -1,0 +1,57 @@
+.head{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: fantasy;
+   }
+   .items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .items .product {
+    height: 250px;
+    width: 350px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    transition: transform 2s;
+    box-shadow: 5px 5px #0a0606;
+   }
+   .items .product:hover{
+    transform: scale(1.1);
+   }
+   #head2{
+    border: 3px solid green;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+   }
+   .items .product .bgimgs{
+    width:100%;
+   }
+   .items .product .caption{
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    left: 115px;
+    font-size: 20px;
+    font-family: cursive;
+   }
+   .items .product .orderbutton{
+    height: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgba(252, 252, 252, 0.479);
+    background-color: rgba(252, 250, 248, 0.479);
+    padding: 2px;
+    line-height: 0cm;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+    transition: background-color 1s,color 1s;
+   }
+   .items .product .orderbutton:hover{
+    background-color: rgba(5, 5, 5, 0);
+    color: rgba(250, 4, 4, 0.226);
+   }
+   

@@ -1,0 +1,51 @@
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+   }
+   .mainbody #head1{
+    text-decoration: underline;
+    position: relative;
+    left: 395px;
+    bottom: 6px;
+   }
+   #head2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+   }
+   .mainbody .buttoncont{
+    position: absolute;
+    top: 420px;
+    left: 950px;
+    padding: 5px;
+   }
+   .mainbody .buttoncont .btn{
+    width: 130px;
+    height: 36px;
+    margin: 3px;
+    font-size: 24px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 15, 216);
+    transition: background-color 1s;
+   }
+   .mainbody .buttoncont .btn:hover{
+    background-color: grey;
+   }
+   .mainbody .text{
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    top: 130px;
+    left: 280px;
+   }
+   .mainbody .images{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+   }
+   .mainbody .images .img{
+    width: 400px;
+    height: 300px;
+   }
+   

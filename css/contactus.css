@@ -1,0 +1,108 @@
+contact{
+    background-color: rgb(112, 130, 133);
+    padding-top: 2px;
+    padding-bottom: 8px;
+   }
+   .form{
+    display: flex;
+    border-radius: 20px;
+    flex-flow: column wrap;
+    text-align: center;
+    width:500px;
+    margin-top: 6px;
+    padding-bottom: 9px;
+    background-color: rgb(235, 190, 195);
+   }
+   .form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    background: #350166;
+    transition: background 1s,color 1s;
+    color: rgb(53, 12, 150);
+    border-radius: 20px;
+    cursor: pointer;
+   }
+   .form input[type="reset"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    background: #100970;
+    transition: background 1s,color 1s;
+    color: rgb(44, 9, 170);
+    border-radius: 20px;
+    cursor: pointer;
+   }
+   .form input[type="reset"]:hover{
+    background: rgb(91, 230, 91);
+    color: black;
+   }
+   .form input[type="submit"]:hover{
+    background: rgb(91, 230, 91);
+    color: black;
+   }
+   .form input[type="text"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    color: #262626;
+    border-bottom: 2px solid #262626;
+    background: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+   }
+   .form input[type="email"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    color: #262626;
+    border-bottom: 2px solid #262626;
+    background: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+   }
+   .form input[type="phone"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    color: #262626;
+    border-bottom: 2px solid #262626;
+    background: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+   }
+   .form .radiofeild{
+    font-weight: bold;
+    font-size: 18px;
+   }
+   .form .dropdown{
+    font-weight: bold;
+    font-size: 18px;
+   }
+   .form .dropdown option{
+    font-weight: bold;
+   }
+   .form .dropdown #query{
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(235, 190, 195);
+    border: 2px solid #262626; 
+   }
+   .form .textarea #text{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+   }
+   .form .textarea textarea{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(235, 190, 195);;
+   }
